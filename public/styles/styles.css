@@ -17,10 +17,17 @@ body {
   background-image: linear-gradient(to bottom right, #ffcf35, #ffe900);
 }
 
+input {
+  width: 50vw;
+  height: 7vh;
+  font-size: 1.5em;
+  padding: 10px 0;
+}
+
 /* Entry page styling */
 
 #start-page{
-  background-image: url('mountain.jpg');
+  background-image: url('../images/mountain.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ffd256;
@@ -84,7 +91,7 @@ button:active {
 /* To Do list Items */
 
 #list-page{
-  background-image: linear-gradient(to bottom right, #ffcf35, #ffe900);
+  background-image: linear-gradient(to bottom right, #ffcf35, #19a800);
 }
 
 /* Transition classes */
