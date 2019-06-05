@@ -9,7 +9,9 @@ button.addEventListener("click", function(){
   endSection.toggle("hide");
   endSection.toggle("show");
   var test = $.getJSON("/api/todo")
-  .done((data) => alert(data.user))
+  .done((data) => {
+    alert(data[0]._id);
+  })
   .fail(() => alert("Error"))
   .always(()=> alert("Finished"));
 });
