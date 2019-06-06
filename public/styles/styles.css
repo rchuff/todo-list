@@ -21,7 +21,8 @@ input {
   width: 50vw;
   height: 7vh;
   font-size: 1.5em;
-  padding: 10px 0;
+  padding: 5px;
+  margin-top: 5px;
 }
 
 /* Entry page styling */
@@ -32,8 +33,6 @@ input {
   background-size: cover;
   background-color: #ffd256;
 }
-
-
 
 .inner-title{
   text-align: center;
@@ -92,6 +91,42 @@ button:active {
 
 #list-page{
   background-image: linear-gradient(to bottom right, #ffcf35, #19a800);
+}
+
+ul{
+  list-style: none;
+  text-align: left;
+  margin-top: 10px;
+}
+
+ul > li {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #dddddd;
+  margin: 8px 0;
+  border-color: black;
+  border-radius: 2px;
+  font-size: 1.5em;
+  padding: 3px;
+}
+
+li:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+li span {
+  float: right;
+  padding-right: 5px;
+  color: #ff8e8e;
+}
+
+li span:hover{
+  color: #ff0505;
+}
+
+li.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
 /* Transition classes */
